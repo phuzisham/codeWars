@@ -1,0 +1,21 @@
+:root {
+  --main-color:           #ff66ff;
+  --secondary-color:      #fbd8fb;
+  --main-text-color:      #3e5869;
+  --secondary-text-color: #d8b2ff;
+  --new-room-form:        #ffb2ff;
+  --send-message-form:    #d8b2ff;x
+}
+
+.app {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 60px;
+  grid-template-areas:
+    "m m m m r r"
+    "m m m m r r"
+    "m m m m r r"
+    "m m m m r r"
+    "m m m m n n"
+    "f f f f f f";
+}
